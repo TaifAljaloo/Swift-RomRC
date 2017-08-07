@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceScreen
+
+        android:title="Power Menu options"
+
+        android:summary="other options in extended power menu">
+
+        <PreferenceCategory
+
+            android:title="Power menu buttons">
+
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+
+                android:title="Power Off"
+
+                android:key="PM_power"
+
+                android:defaultValue="true"
+
+                android:summaryOn="enabled"
+
+                android:summaryOff="disabled" />
+
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+
+                android:title="Data Mode"
+
+                android:key="PM_data"
+
+                android:defaultValue="true"
+
+                android:summaryOn="enabled"
+
+                android:summaryOff="disabled" />
+
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+
+                android:title="Recovery"
+
+                android:key="PM_recovery"
+
+                android:defaultValue="true"
+
+                android:summaryOn="enabled"
+
+                android:summaryOff="disabled" />
+
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+
+                android:title="Emergency Mode"
+
+                android:key="PM_emergency"
+
+                android:defaultValue="false"
+
+                android:summaryOn="enabled"
+
+                android:summaryOff="disabled" />
+
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+
+                android:title="Screenshot"
+
+                android:key="PM_screenshot"
+
+                android:defaultValue="false"
+
+                android:summaryOn="enabled"
+
+                android:summaryOff="disabled" />
+
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+
+                android:title="Screen Record"
+
+                android:key="PM_record"
+
+                android:defaultValue="false"
+
+                android:summaryOn="enabled"
+
+                android:summaryOff="disabled" />
+
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+
+                android:title="Flashlight"
+
+                android:key="PM_torch"
+
+                android:defaultValue="true"
+
+                android:summaryOn="enabled"
+
+                android:summaryOff="disabled" />
+
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Download mode" android:key="power_download" android:defaultValue="false" android:summaryOn="Shown" android:summaryOff="Hidden" />
+
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceCategory
+        android:title="Native blur settings">
+    <com.wubydax.romcontrol.v2.prefs.FilePreference
+        android:title="Launcher blur"
+        android:key="hades_launchblur"
+        android:defaultValue="true"
+        android:summaryOn="Launcher blur enabled"
+        android:summaryOff="Launcher blur disabled"
+        app:isSilent="false"
+        app:packageNameToKill="com.sec.android.app.launcher"/>
+
+    <com.wubydax.romcontrol.v2.prefs.FilePreference
+        android:title="Quick Panel blur"
+        android:key="hades_qpblur"
+        android:defaultValue="true"
+        android:summaryOn="Quick Panel blur enabled"
+        android:summaryOff="Quick Panel blur disabled"
+        app:isSilent="false"
+        app:packageNameToKill="com.android.systemui"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="AOD brightness " />
+    <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="AOD brightness" android:key="aod_brightness" android:defaultValue="17" app:minValue="0" app:maxValue="255" app:rebootDevice="true" />
+    <PreferenceCategory android:title="Notifications " />
+    <SwitchPreference android:title="Make Ongoing Notifications Removable" android:key="ongoing_notifications" android:defaultValue="false" android:summaryOn="Ongoing Notifications are removeable" android:summaryOff="Ongoing Notifications are permanent" />
+    <PreferenceCategory android:title="Smusic blur " />
+    <com.wubydax.romcontrol.v2.prefs.FilePreference
+        android:title="S8 Music edge light"
+        android:key="hades_edgelight"
+        android:defaultValue="true"
+        android:summaryOn="Edge light enabled"
+        android:summaryOff="Edge light disabled"
+        app:isSilent="false"
+        app:packageNameToKill="com.sec.android.app.music"/>
+    <PreferenceCategory android:title="change the number of columns in settings" />
+    <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/dashboard_num_columns_entries" android:title="number of Columns in Settings" android:key="phronesis_no_columns" android:entryValues="@array/dashboard_num_columns_values" />
+
+    </PreferenceScreen>
