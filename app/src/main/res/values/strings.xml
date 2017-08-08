@@ -117,10 +117,15 @@ Please click \"CONFIRM\" to proceed or \"CANCEL\" to quit."</string>
     <string name="sound_prefs">Sound and Dialogs</string>
     <string name="systemui_prefs">UI Settings</string>
     <string name="theme_dialog_title">Choose theme</string>
-    <string name="me">corsicanu - the one and only</string>
+    <string name="me">Taif - The best guy ever and the developer of this project</string>
     <string name="daxgirl">Daxgirl - ROM Control dev</string>
     <string name="wuby">Wuby - ROM Control co-developer</string>
     <string name="troy">Troy - The Mod Master</string>
+    <string name="anan">Anan - My partner in everything we mod / fix together </string>
+    <string name="valinor"> Ertugrul - The guy who helped me to fix most bugs </string>
+    <string name="corsi">Corsicanu - The bro who spams my pm with mods and requesting donation all the time </string>
+    <string name="ther">Assaad - The greatest moder ever</string>
+    <string name="hamza">KiLL-SwitCH-For Always Being There To Help</string>
 
     <string name="listview_off">Off</string>
     <string name="listview_wave_left">Wave (left)</string>

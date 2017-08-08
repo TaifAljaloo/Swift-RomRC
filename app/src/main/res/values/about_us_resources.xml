@@ -15,39 +15,54 @@
 <resources>
     <array name="about_contact_us_drawables">
         <item>@drawable/tlg</item>
-        <item>@drawable/paypal</item>
+        <item>@drawable/git</item>
         <item>@drawable/xda</item>
     </array>
     <string-array name="about_contact_us_links">
-        <item>https://t.me/joinchat/AAAAAEANknejnhG7CslsEw</item>
-        <item>https://forum.xda-developers.com/donatetome.php?u=4658360</item>
-        <item>https://forum.xda-developers.com/samsung-a-series/development/rom-hadesrom-v1-0-t3611525</item>
+        <item>https://telegram.me/joinchat/AAAAAERL1ggqmiyxVvBLqA</item>
+        <item>https://github.com/TaifAljaloo/Swif-RomRC</item>
+        <item>https://forum.xda-developers.com/note-4/development/rom-swift-rom-v1-0-t3633228</item>
     </string-array>
     <string-array name="about_contact_us_text">
         <item>Community</item>
-        <item>Support</item>
+        <item>Rc Source Code</item>
         <item>Forum</item>
     </string-array>
     <array name="about_credits_drawables">
         <item>@drawable/daxgirl</item>
         <item>@drawable/wuby</item>
         <item>@drawable/td</item>
+        <item>@drawable/anan</item>
+        <item>@drawable/valinor</item>
+        <item>@drawable/corsi</item>
+        <item>@drawable/ther</item>
+        <item>@drawable/hamza</item>
     </array>
     <string-array name="about_credits_links">
         <item>http://forum.xda-developers.com/member.php?u=4714483</item>
         <item>http://forum.xda-developers.com/member.php?u=5493353</item>
         <item>http://forum.xda-developers.com/member.php?u=1042140</item>
+        <item>https://forum.xda-developers.com/member.php?u=4637718</item>
+        <item>https://forum.xda-developers.com/member.php?u=5275174</item>
+        <item>https://forum.xda-developers.com/member.php?u=4658360</item>
+        <item>https://forum.xda-developers.com/member.php?u=5405448</item>
+        <item>https://forum.xda-developers.com/member.php?u=7098450</item>
     </string-array>
     <string-array name="about_credits_names">
         <item>@string/daxgirl</item>
         <item>@string/wuby</item>
         <item>@string/troy</item>
+        <item>@string/anan</item>
+        <item>@string/valinor</item>
+        <item>@string/corsi</item>
+        <item>@string/ther</item>
+        <item>@string/hamza</item>
     </string-array>
     <array name="about_team_drawables">
         <item>@drawable/me</item>
     </array>
     <string-array name="about_team_links">
-        <item>http://forum.xda-developers.com/member.php?u=4658360</item>
+        <item>https://forum.xda-developers.com/member.php?u=7594127</item>
     </string-array>
     <string-array name="about_team_names">
         <item>@string/me</item>

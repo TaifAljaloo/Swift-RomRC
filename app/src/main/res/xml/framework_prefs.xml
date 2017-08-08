@@ -122,7 +122,6 @@
     <PreferenceCategory android:title="AOD brightness " />
     <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="AOD brightness" android:key="aod_brightness" android:defaultValue="17" app:minValue="0" app:maxValue="255" app:rebootDevice="true" />
     <PreferenceCategory android:title="Notifications " />
-    <SwitchPreference android:title="Make Ongoing Notifications Removable" android:key="ongoing_notifications" android:defaultValue="false" android:summaryOn="Ongoing Notifications are removeable" android:summaryOff="Ongoing Notifications are permanent" />
     <PreferenceCategory android:title="Smusic blur " />
     <com.wubydax.romcontrol.v2.prefs.FilePreference
         android:title="S8 Music edge light"
@@ -133,6 +132,11 @@
         app:isSilent="false"
         app:packageNameToKill="com.sec.android.app.music"/>
     <PreferenceCategory android:title="change the number of columns in settings" />
-    <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/dashboard_num_columns_entries" android:title="number of Columns in Settings" android:key="phronesis_no_columns" android:entryValues="@array/dashboard_num_columns_values" />
-
-    </PreferenceScreen>
+    <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/dashboard_fav_columns_entries" android:title="Amount of Columns in Favorite Section" android:key="favorite_columns" android:entryValues="@array/dashboard_fav_columns_values" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="ongoing_notifications"
+        android:summaryOff="Ongoing Notifications are permanent"
+        android:summaryOn="Ongoing Notifications are removeable"
+        android:title="Make Ongoing Notifications Removable" />
+</PreferenceScreen>

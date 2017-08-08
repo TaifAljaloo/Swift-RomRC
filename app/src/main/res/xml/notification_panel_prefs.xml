@@ -2,8 +2,7 @@
 <PreferenceScreen
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Multiuser Avatar" android:key="multiuser_avatar" android:defaultValue="true" android:summaryOn="Avatar shown" android:summaryOff="Avatar hidden" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
-    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Brightness Slider" android:key="notification_panel_brightness_adjustment" android:defaultValue="true" android:summaryOn="Currently shown" android:summaryOff="Currently hidden" />
-    <PreferenceCategory
+       <PreferenceCategory
         android:title="Data Usage view preferences">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:title="Data usage view visibility"
@@ -115,7 +114,7 @@
         </PreferenceScreen>
     </PreferenceCategory>
     <PreferenceCategory
-            android:title="Carrier label text preferences">
+            android:title="Carrier label text preferences" />
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:title="Carrier label visibility"
                 android:defaultValue="true"
@@ -140,5 +139,57 @@
                 android:defaultValue="SwiftRom"
                 android:dependency="is_custom_carrier_label"
                 android:key="custom_carrier_label"/>
-    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="notis panel colors" />
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+        android:title="Clock Color"
+        android:key="pulldown_clock_color"
+        android:defaultValue="-9597786"
+        hexValue="true"
+        alphaSlider="true"
+        android:summary="Change pulldown clock color" />
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+        android:title="Date Color"
+        android:key="pulldown_date_color"
+        android:defaultValue="-9597786"
+        hexValue="true"
+        alphaSlider="true"
+        android:summary="Choose date color in pulldown" />
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+        android:title="Settings Button Color"
+        android:key="pulldown_button_color"
+        android:defaultValue="-13476476"
+        hexValue="true"
+        alphaSlider="true"
+        android:summary="Choose color to apply" />
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+        android:title="Settings Divider Color"
+        android:key="header_divider_color"
+        android:defaultValue="-13476476"
+        hexValue="true"
+        alphaSlider="true"
+        android:summary="Choose color to apply" />
+    <com.wubydax.romcontrol.v2.prefs.MyListPreference
+        android:defaultValue="0"
+        android:entries="@array/shape_entries"
+        android:entryValues="@array/shape_values"
+        android:key="notification_background_form"
+        android:title="Notification bg shape"/>
+    <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+        android:title="Notification background transparency"
+        android:key="notification_bg_alpha"
+        android:defaultValue="255"
+        app:maxValue="255"/>
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:title="Custom notificationColors"
+        android:key="custom_notification_color"
+        android:defaultValue="0"
+        android:summaryOff="Custom colors disabled"
+        android:summaryOn="Custom colors enabled"/>
+
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+        android:defaultValue="0"
+        android:key="notification_bg_color"
+        android:title="Notification bg color"
+        android:dependency="custom_notification_color"/>
 </PreferenceScreen>
