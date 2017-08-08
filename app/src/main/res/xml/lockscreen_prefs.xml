@@ -12,6 +12,5 @@
         app:packageNameToKill="com.android.systemui"/>
     <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Text Color hours" android:key="kg_clock_hours_color" android:summary="Choose a color" android:defaultValue="\#ffffffff" alphaSlider="false" />
     <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Text Color minutes" android:key="kg_clock_minutes_color" android:summary="Choose a color" android:defaultValue="\#ffffffff" alphaSlider="false" />
-    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Text Color seconds Hours" android:key="kg_clock_second_color" android:summary="Choose a color" android:defaultValue="\#ffffffff" alphaSlider="false" />
     <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="The color of the date text" android:key="kg_date_color" android:summary="Choose a color" android:defaultValue="\#ffffffff" alphaSlider="false" />
     </PreferenceScreen>
