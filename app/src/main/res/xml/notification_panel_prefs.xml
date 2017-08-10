@@ -169,13 +169,7 @@
         hexValue="true"
         alphaSlider="true"
         android:summary="Choose color to apply" />
-    <com.wubydax.romcontrol.v2.prefs.MyListPreference
-        android:defaultValue="0"
-        android:entries="@array/shape_entries"
-        android:entryValues="@array/shape_values"
-        android:key="notification_background_form"
-        android:title="Notification bg shape"/>
-    <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
         android:title="Notification background transparency"
         android:key="notification_bg_alpha"
         android:defaultValue="255"
