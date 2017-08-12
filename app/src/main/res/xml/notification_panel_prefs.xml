@@ -197,8 +197,8 @@
     <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
         android:defaultValue="true"
         android:key="aspire_noti_grouping"
-        android:summaryOff="Grouped Notifications is Disabled"
-        android:summaryOn="Grouped Notifications is Enabled"
+        android:summaryOff="Grouped Notifications is Off"
+        android:summaryOn="Grouped Notifications is On"
         android:title="Notification Grouping"
         app:packageNameToKill="com.android.systemui" />
 </PreferenceScreen>
