@@ -186,4 +186,19 @@
         android:key="notification_bg_color"
         android:title="Notification bg color"
         android:dependency="custom_notification_color"/>
+    Thomas Shimko, [11.08.17 18:01]
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:defaultValue="false"
+        android:key="aspire_upper_brightness"
+        android:summaryOff="Brightness Slider on First Swipe is Disabled"
+        android:summaryOn="Brightness Slider on First Swipe is Enabled"
+        android:title="Brightness Slider on First Swipe"
+        app:packageNameToKill="com.android.systemui" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:defaultValue="true"
+        android:key="aspire_noti_grouping"
+        android:summaryOff="Grouped Notifications is Disabled"
+        android:summaryOn="Grouped Notifications is Enabled"
+        android:title="Notification Grouping"
+        app:packageNameToKill="com.android.systemui" />
 </PreferenceScreen>
