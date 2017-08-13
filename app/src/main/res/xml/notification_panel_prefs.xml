@@ -186,7 +186,8 @@
         android:key="notification_bg_color"
         android:title="Notification bg color"
         android:dependency="custom_notification_color"/>
-    Thomas Shimko, [11.08.17 18:01]
+    <PreferenceCategory
+        android:title="Bright bar settings" />
     <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
         android:defaultValue="false"
         android:key="aspire_upper_brightness"
@@ -201,4 +202,7 @@
         android:summaryOn="Grouped Notifications is On"
         android:title="Notification Grouping"
         app:packageNameToKill="com.android.systemui" />
+    <PreferenceCategory
+        android:title="toggles settings" />
+    <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/toggle_entries" android:title="Visible Toggles Shown" android:key="QSPanel_NumberCount" android:summary="Number shown on screen" android:entryValues="@array/toggle_values" />
 </PreferenceScreen>
