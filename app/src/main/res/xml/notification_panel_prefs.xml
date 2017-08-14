@@ -35,7 +35,8 @@
     <com.wubydax.romcontrol.v2.prefs.FilePreference android:title="Hide text in toggles" android:key="hide_text_toggles"
         android:defaultValue="true"
         android:summaryOn="Text hided"
-        android:summaryOff="Text showed" />
+        android:summaryOff="Text showed"
+        hexValue="true" />
     </PreferenceCategory>
     <PreferenceCategory
         android:title="Device info settings">
