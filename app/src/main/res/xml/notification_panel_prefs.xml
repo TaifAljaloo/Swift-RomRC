@@ -205,4 +205,18 @@
     <PreferenceCategory
         android:title="toggles settings" />
     <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/toggle_entries" android:title="Visible Toggles Shown" android:key="QSPanel_NumberCount" android:summary="Number shown on screen" android:entryValues="@array/toggle_values" />
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+        android:title="Toggle On Color"
+        android:key="toggle_icon_on_color"
+        android:defaultValue="-14318119"
+        hexValue="true"
+        alphaSlider="true"
+        android:summary="Set toggle On color" />
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+        android:title="Toggle Off Color"
+        android:key="toggle_icon_off_color"
+        android:defaultValue="1293831800"
+        hexValue="true"
+        alphaSlider="true"
+        android:summary="Set toggle Off color" />
 </PreferenceScreen>
