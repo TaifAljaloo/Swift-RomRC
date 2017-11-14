@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Swift-RomRC.iml" filepath="$PROJECT_DIR$/Swift-RomRC.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hadesRC-master.iml" filepath="$PROJECT_DIR$/hadesRC-master.iml" />
     </modules>
   </component>
 </project>
